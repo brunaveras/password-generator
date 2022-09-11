@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+input{
+    padding: 5px;
+    outline: none;
+    accent-color: #589624;
+    border-color: #589624;
+}
+input[type=checkbox]{
+    width: 18px;
+    height: 18px;
+}
+input[type=range]{
+    width: 89%;
+}
+button{
+    background-color: #589624;
+    cursor: pointer;
+    color: antiquewhite;
+    border: none;
+    padding: 5px;
+}
